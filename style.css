@@ -1,0 +1,61 @@
+*{
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: white;
+text-decoration: none;
+}
+
+body{
+    background: rgb(52,73,93);
+background: linear-gradient(0deg, rgba(52,73,93,1) 0%, rgba(28,40,51,1) 100%);
+}
+
+#cabecalho{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+background: #151515;
+color: white;
+height: 89px;
+background-size: 60% 60%;
+
+}
+
+
+#artigo{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.artigo-subtitulo{
+    font-size: 48px;
+    
+}
+.artigo-paragrafo{
+    width: 877px;
+    font-size: 18px;
+  
+}
+.artigo-imagem{
+    width: 682.538px;
+
+}
+.rodape{
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem
+}
+.botao{
+    border-radius: 7px;
+border: 1px solid #000;
+
+background: #1E507E;
+}
